@@ -12,3 +12,5 @@ pull request or message me
     1. Singleton
 2. Behavioral
     1. Stategy
+3. Creational
+    1. Factory
