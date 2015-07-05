@@ -1,0 +1,20 @@
+{
+  "name": "rpodwika/designpatterns",
+  "description": "PHP Design Patterns",
+  "minimum-stability": "stable",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Robert Podwika",
+      "email": "hello@rpodwika.pl"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rpodwika\\Designpatterns\\": "src"
+    }
+  }
+}
