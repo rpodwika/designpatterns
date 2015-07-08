@@ -9,8 +9,9 @@ pull request or message me
 ##Implemented patterns
 
 1. Antipatterns
-    1. Singleton
+    * [Singleton](src/Antipatterns/)
 2. Behavioral
-    1. Stategy
+    * [Strategy](src/Behavioral/Strategy)
+    * [Observer](src/Behavioral/Observer)
 3. Creational
-    1. Factory
+    * [Factory](src/Creational/Factory)
