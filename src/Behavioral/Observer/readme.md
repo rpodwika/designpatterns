@@ -24,7 +24,7 @@ observers
 [AuthMailer.php](AuthMailer.php) - another observer listens for 'logged in' and 
 'logged out' state change. It pretends to send emails after user logged in and out.
 
-If you want to know how it exactly works check [ObserverTest.php](../tests/ObserverTest.php)
+If you want to know how it exactly works check [ObserverTest.php](/tests/ObserverTest.php)
 
 #Example of usage
 

@@ -11,7 +11,8 @@ pull request or message me
 1. Antipatterns
     * [Singleton](src/Antipatterns/)
 2. Behavioral
-    * [Strategy](src/Behavioral/Strategy)
+    * [Memento](src/Behavioral/Memento)
     * [Observer](src/Behavioral/Observer)
+    * [Strategy](src/Behavioral/Strategy)
 3. Creational
     * [Factory](src/Creational/Factory)
