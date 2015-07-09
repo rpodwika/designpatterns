@@ -11,8 +11,8 @@ use \Rpodwika\Designpatterns\Creational\Factory\SamsungFactory;
 class SamsungFactoryTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @covers Samsung::doGreatPhoto
-     * @covers SamsungFactory::makePhone
+     * @covers \Rpodwika\Designpatterns\Creational\Factory\Samsung::doGreatPhoto
+     * @covers \Rpodwika\Designpatterns\Creational\Factory\SamsungFactory::makePhone
      */
     public function testMakePhone()
     {

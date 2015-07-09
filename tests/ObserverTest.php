@@ -14,8 +14,8 @@ use \Rpodwika\Designpatterns\Behavioral\Observer\AuthMailer;
 class ObserverTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @covers Auth::login
-     * @covers Auth::logout
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Auth::login
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Auth::logout
      */
     public function testSubjectAttachesObserver()
     {

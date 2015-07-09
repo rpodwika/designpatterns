@@ -6,13 +6,13 @@
  * Date: 09.07.15
  * Time: 23:07
  */
-use Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasket;
+use \Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasket;
 
 class SimpleBasketTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @covers SimpleBasket
-     * @covers SimpleBasketMemento
+     * @covers \Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasket
+     * @covers \Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasketMemento
      */
     public function testMementoRevertsState()
     {

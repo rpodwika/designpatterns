@@ -10,8 +10,7 @@ use Rpodwika\Designpatterns\Creational\Factory\AnyphoneFactory;
 class AnyphoneFactoryTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @covers AnyphoneFactory::makePhone
-     * @covers Iphone::callNumber
+     * @covers Rpodwika\Designpatterns\Creational\Factory\Iphone::callNumber()
      */
     public function testFactoryCreatesIphone()
     {
@@ -24,8 +23,7 @@ class AnyphoneFactoryTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers AnyphoneFactory::makePhone
-     * @covers Samsung::callNumber
+     * @covers \Rpodwika\Designpatterns\Creational\Factory\Samsung::callNumber
      */
     public function testFactoryCreatesSamsung()
     {
