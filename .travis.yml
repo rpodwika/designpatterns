@@ -9,6 +9,6 @@ before_script:
   - composer install --prefer-source --no-interaction --dev
 script:
   - phpunit --configuration phpunit.xml
-  - mkdir -p logs
+  - mkdir -p build/logs
 after_script:
   - php vendor/bin/coveralls -v
