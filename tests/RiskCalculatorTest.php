@@ -13,7 +13,7 @@ use \Rpodwika\Designpatterns\Behavioral\Strategy\HardRiskCalculator;
 class RiskCalculatorTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @cover RiskCalculator::calculate
+     * @covers RiskCalculator::calculate
      */
     public function testRiskCalculatorSoftRisk()
     {
