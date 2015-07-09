@@ -28,11 +28,14 @@ If you want to know how it exactly works check [ObserverTest.php](/tests/Observe
 
 #Example of usage
 
-$auth = new Auth(); //obserable subject
+$auth        = new Auth(); //obserable subject
+
 $authLogging = new AuthLogging($auth); //observes Auth class and logs events
+
 $authMailer  = new AuthMailer($auth); //observers Auth class and mail about events
 
 $auth->login();
+
 $auth->logout();
 
 ##Output
