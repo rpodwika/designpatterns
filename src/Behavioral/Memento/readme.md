@@ -1,7 +1,7 @@
 #Memento
 
 Memento is behavioral pattern used to save state of object and easily revert it. Memento can be achived in several ways
-in PHP the easiest way is Serialisation with magic methods *__wakeup()* and *__sleep*
+in PHP the easiest way is Serialisation with magic methods *__wakeup()* and *__sleep()*
 
 ##When to use
 
