@@ -8,7 +8,7 @@ in PHP the easiest way is Serialisation with magic methods *__wakeup()* and *__s
 You should use memento if you want revert state of object. It can be used in transactional operations. Memento protects
 object encapsulation.
 
-#How to use
+##How to use
 
 See [tests/SimpleBasketTest](/tests/SimpleBasketTest.php)
 

@@ -18,3 +18,5 @@ pull request or message me
     * [Strategy](src/Behavioral/Strategy)
 3. Creational
     * [Factory](src/Creational/Factory)
+4. Structural
+    * [Decorator](src/Structural/Decorator)
