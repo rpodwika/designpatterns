@@ -12,6 +12,9 @@ use Rpodwika\Designpatterns\Antipatterns\SingletonSample;
 
 class SingletonTest extends PHPUnit_Framework_TestCase
 {
+    /**
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton
+     */
     public function testSingletonReturnsObject()
     {
         $singletonObject = Singleton::getInstance();
@@ -20,11 +23,17 @@ class SingletonTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('Rpodwika\Designpatterns\Antipatterns\Singleton', $singletonObject);
     }
 
+    /**
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton
+     */
     public function testDoSomethingReturnsProperObject()
     {
         $this->assertEquals('I do something', Singleton::getInstance()->doSomething());
     }
 
+    /**
+     * @covers \Rpodwika\Designpatterns\Antipatterns\SingletonTrait
+     */
     public function testSingletonTrait()
     {
         $object = SingletonSample::getInstance();
