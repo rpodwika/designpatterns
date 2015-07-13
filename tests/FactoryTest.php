@@ -27,12 +27,15 @@ class FactoryTest extends PHPUnit_Framework_TestCase
 
     /**
      * @covers \Rpodwika\Designpatterns\Creational\Factory\Iphone
+     * @covers \Rpodwika\Designpatterns\Creational\Factory\Phone
      * @covers \Rpodwika\Designpatterns\Creational\Factory\IphoneFactory
      */
     public function testIphoneFactoryMakePhone()
     {
         $iphoneFactory = new IphoneFactory();
         $iphone = $iphoneFactory->makePhone();
+        $this->assertEquals(sprintf('Iphone is calling number %d', 123), $iphone->callNumber(123));
+        $this->assertEquals('selfie', $iphone->doSelfie());
         $this->assertNotNull($iphone);
         $this->assertInstanceOf('Rpodwika\Designpatterns\Creational\Factory\Iphone', $iphone);
     }

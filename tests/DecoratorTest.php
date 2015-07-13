@@ -39,6 +39,15 @@ class DecoratorTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(75, $victim->getHp());
         $murderer->attack($victim);
         $this->assertEquals(70, $victim->getHp());
+    }
 
+    /**
+     * @covers \Rpodwika\Designpatterns\Structural\Decorator\Character::weaken
+     */
+    public function testWeakenCharacter()
+    {
+        $character = new Character(100);
+        $character->weaken(10);
+        $this->assertEquals(90, $character->getHp());
     }
 }
