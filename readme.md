@@ -12,12 +12,35 @@ pull request or message me
 ##Implemented patterns
 
 1. Antipatterns
-    * [Singleton](src/Antipatterns/)
+    * [Singleton](src/Antipatterns/) - One global instance of a class
 2. Behavioral
-    * [Memento](src/Behavioral/Memento)
-    * [Observer](src/Behavioral/Observer)
-    * [Strategy](src/Behavioral/Strategy)
+    * [Memento](src/Behavioral/Memento) - Without violating encapsulation, capture and externalize an object's internal
+    state
+    * [Observer](src/Behavioral/Observer) - Define one to many dependency between objects so that when one changes state,
+    all its dependents are notified and updated automatically
+    * [Strategy](src/Behavioral/Strategy) - Define a family of algorithms and make them interchangable. 
 3. Creational
-    * [Factory](src/Creational/Factory)
+    * [Factory](src/Creational/Factory) - Define an interface for creating an object but let the subclasses decide
+    which class to instantiate
 4. Structural
-    * [Decorator](src/Structural/Decorator)
+    * [Decorator](src/Structural/Decorator) - Attach additional object features dynamically without subclassing
+    or modifying source class.
+    
+##To be implemented
+    
+* Abstract factory
+* Builder
+* Prototype
+* Bridge
+* Composite
+* Facade
+* Flyweight
+* Proxy
+* Chain of responsibility
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* State
+* Visitor
+
