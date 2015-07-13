@@ -14,8 +14,7 @@ the other one.
 2. When you want to secure some methods from original class not to be visible for example because they use large
 amount of resources.
 3. When you want to use existing class but its interface does not match the one you need
-4. 
 
 ##How to use
 
-See [tests/DecoratorTest](/tests/DecoratorTest.php)
+See [tests/AdapterTest](/tests/AdapterTest.php)

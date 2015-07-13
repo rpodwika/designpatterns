@@ -16,6 +16,9 @@ class ObserverTest extends PHPUnit_Framework_TestCase
     /**
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Auth::login
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Auth::logout
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\AuthLogging
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\AuthMailer
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Observer
      */
     public function testSubjectAttachesObserver()
     {
