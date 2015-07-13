@@ -14,7 +14,7 @@ pull request or message me
 1. Antipatterns
     * [Singleton](src/Antipatterns/) - One global instance of a class
 2. Behavioral
-    * [Adapter](src/Structural/Adapter) - adapt class behavior to new conditions without modifying source of original class
+    * [Adapter](src/Behavioral/Adapter) - adapt class behavior to new conditions without modifying source of original class
     * [Memento](src/Behavioral/Memento) - Without violating encapsulation, capture and externalize an object's internal
     state
     * [Observer](src/Behavioral/Observer) - Define one to many dependency between objects so that when one changes state,
