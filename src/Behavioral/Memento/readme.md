@@ -10,7 +10,7 @@ object encapsulation.
 
 ##How to use
 
-See [tests/SimpleBasketTest](/tests/SimpleBasketTest.php)
+See [tests/SimpleBasketTest](/tests/Behavioral/Memento/SimpleBasketTest.php)
 
 ##Notice
 

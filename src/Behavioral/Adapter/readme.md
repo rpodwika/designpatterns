@@ -17,4 +17,4 @@ amount of resources.
 
 ##How to use
 
-See [tests/AdapterTest](/tests/AdapterTest.php)
+See [tests/AdapterTest](/tests/Behavioral/Adapter/AdapterTest.php)

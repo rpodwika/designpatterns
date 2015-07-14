@@ -37,7 +37,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Rpodwika\\Designpatterns\\": "src"
+      "Rpodwika\\Designpatterns\\": "src/",
+      "Rpodwika\\Tests\\Designpatterns\\": "tests/"
     }
   }
 }

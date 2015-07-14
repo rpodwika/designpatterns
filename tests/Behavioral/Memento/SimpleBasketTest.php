@@ -1,5 +1,7 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Behavioral\Memento;
+
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
@@ -8,7 +10,7 @@
  */
 use \Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasket;
 
-class SimpleBasketTest extends PHPUnit_Framework_TestCase
+class SimpleBasketTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Behavioral\Memento\SimpleBasket

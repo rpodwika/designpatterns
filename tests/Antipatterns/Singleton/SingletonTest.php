@@ -1,5 +1,7 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Antipatterns\Singleton\Singleton;
+
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
@@ -7,24 +9,24 @@
  * Time: 14:38
  */
 
-use Rpodwika\Designpatterns\Antipatterns\Singleton;
-use Rpodwika\Designpatterns\Antipatterns\SingletonSample;
+use Rpodwika\Designpatterns\Antipatterns\Singleton\Singleton;
+use Rpodwika\Designpatterns\Antipatterns\Singleton\SingletonSample;
 
-class SingletonTest extends PHPUnit_Framework_TestCase
+class SingletonTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton\Singleton
      */
     public function testSingletonReturnsObject()
     {
         $singletonObject = Singleton::getInstance();
         $this->assertTrue(is_object($singletonObject));
         $this->assertNotNull($singletonObject);
-        $this->assertInstanceOf('Rpodwika\Designpatterns\Antipatterns\Singleton', $singletonObject);
+        $this->assertInstanceOf('Rpodwika\Designpatterns\Antipatterns\Singleton\Singleton', $singletonObject);
     }
 
     /**
-     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton\Singleton
      */
     public function testDoSomethingReturnsProperObject()
     {
@@ -32,7 +34,7 @@ class SingletonTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Rpodwika\Designpatterns\Antipatterns\SingletonTrait
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton\SingletonTrait
      */
     public function testSingletonTrait()
     {

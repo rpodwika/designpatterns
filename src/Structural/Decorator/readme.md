@@ -13,4 +13,4 @@ Decorator can be used to add behavior to class statically or dynamically.
 
 ##How to use
 
-See [tests/DecoratorTest](/tests/DecoratorTest.php)
+See [tests/DecoratorTest](/tests/Structural/Decorator/DecoratorTest.php)

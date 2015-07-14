@@ -1,5 +1,7 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Structural\Decorator;
+
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
@@ -9,7 +11,7 @@
 use \Rpodwika\Designpatterns\Structural\Decorator\Character;
 use \Rpodwika\Designpatterns\Structural\Decorator\ShootingCharacter;
 
-class DecoratorTest extends PHPUnit_Framework_TestCase
+class DecoratorTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Structural\Decorator\Character
@@ -30,7 +32,7 @@ class DecoratorTest extends PHPUnit_Framework_TestCase
      */
     public function testShootingCharacter()
     {
-        $victim   = new Character();
+        $victim = new Character();
         $murderer = new Character();
 
         $shootingMurderer = new ShootingCharacter($murderer);

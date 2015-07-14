@@ -1,5 +1,6 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Behavioral\Observer;
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
@@ -11,7 +12,7 @@ use \Rpodwika\Designpatterns\Behavioral\Observer\AuthLogging;
 use \Rpodwika\Designpatterns\Behavioral\Observer\Auth;
 use \Rpodwika\Designpatterns\Behavioral\Observer\AuthMailer;
 
-class ObserverTest extends PHPUnit_Framework_TestCase
+class ObserverTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Auth::login
@@ -19,6 +20,7 @@ class ObserverTest extends PHPUnit_Framework_TestCase
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\AuthLogging
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\AuthMailer
      * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Observer
+     * @covers \Rpodwika\Designpatterns\Behavioral\Observer\Subject
      */
     public function testSubjectAttachesObserver()
     {

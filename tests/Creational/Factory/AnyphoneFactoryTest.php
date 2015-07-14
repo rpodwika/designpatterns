@@ -1,13 +1,15 @@
 <?php
+namespace Rpodwika\Designpatterns\Tests\Creational\Factory;
 
 use Rpodwika\Designpatterns\Creational\Factory\AnyphoneFactory;
+
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
  * Date: 05.07.15
  * Time: 23:12
  */
-class AnyphoneFactoryTest extends PHPUnit_Framework_TestCase
+class AnyphoneFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Creational\Factory\AnyphoneFactory

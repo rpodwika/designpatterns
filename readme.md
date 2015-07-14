@@ -5,9 +5,24 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/559efd53663635001c000015/badge.svg?style=flat)](https://www.versioneye.com/user/projects/559efd53663635001c000015)
 [![Latest Stable Version](https://poser.pugx.org/rpodwika/designpatterns/v/stable)](https://packagist.org/packages/rpodwika/designpatterns) [![Total Downloads](https://poser.pugx.org/rpodwika/designpatterns/downloads)](https://packagist.org/packages/rpodwika/designpatterns) [![Latest Unstable Version](https://poser.pugx.org/rpodwika/designpatterns/v/unstable)](https://packagist.org/packages/rpodwika/designpatterns) [![License](https://poser.pugx.org/rpodwika/designpatterns/license)](https://packagist.org/packages/rpodwika/designpatterns)
 
-For my own pratice and to help other programmers I decided to implement several Design Patterns in PHP I hope 
+##Why 
+
+For my own pratice and to help other programmers I decided to implement several Design Patterns in PHP. I hope 
 you like it and you will find it helpful. If you have any suggestions how can I write something better please create
 pull request or message me
+
+##What are design patterns
+
+Design problems are proven to work solutions for problems that often occur while writing applications.
+
+
+##Why to use them
+
+Because they solve problems. You do not need to invent solution that is already working. How many times 
+during your programmer career you had this feeling that you already solved problem that you are facing now? 
+Same goes with patterns you have problem that could be solved using specific pattern. Keep in mind that you 
+should not force your code to fit in patterns. It should come out naturally. Firstly K.I.S.S.
+
 
 ##Implemented patterns
 
