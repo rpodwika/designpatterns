@@ -1,4 +1,5 @@
 <?php
+namespace Rpodwika\Designpatterns\Tests\Creational\Factory;
 
 /**
  * Created by PhpStorm.
@@ -9,7 +10,7 @@
 use \Rpodwika\Designpatterns\Creational\Factory\SamsungFactory;
 use \Rpodwika\Designpatterns\Creational\Factory\IphoneFactory;
 
-class FactoryTest extends PHPUnit_Framework_TestCase
+class FactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Creational\Factory\SamsungFactory

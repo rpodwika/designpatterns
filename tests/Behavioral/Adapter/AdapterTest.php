@@ -1,5 +1,7 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Behavioral\Adapter;
+
 /**
  * Created by PhpStorm.
  * User: robertpodwikamac
@@ -10,7 +12,7 @@
 use \Rpodwika\Designpatterns\Behavioral\Adapter\EmailClient;
 use \Rpodwika\Designpatterns\Behavioral\Adapter\EmailClientOnlyUtfAdapter;
 
-class AdapterTest extends PHPUnit_Framework_TestCase
+class AdapterTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers \Rpodwika\Designpatterns\Behavioral\Adapter\EmailClient::sendUtf8Email

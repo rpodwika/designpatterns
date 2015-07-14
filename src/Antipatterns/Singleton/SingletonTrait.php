@@ -6,7 +6,7 @@
  * Time: 21:49
  */
 
-namespace Rpodwika\Designpatterns\Antipatterns;
+namespace Rpodwika\Designpatterns\Antipatterns\Singleton;
 
 
 trait SingletonTrait

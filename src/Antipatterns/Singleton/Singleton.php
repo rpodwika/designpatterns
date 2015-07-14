@@ -6,7 +6,7 @@
  * Time: 14:40
  */
 
-namespace Rpodwika\Designpatterns\Antipatterns;
+namespace Rpodwika\Designpatterns\Antipatterns\Singleton;
 
 class Singleton
 {

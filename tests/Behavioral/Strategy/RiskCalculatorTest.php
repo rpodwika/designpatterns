@@ -1,5 +1,7 @@
 <?php
 
+namespace Rpodwika\Designpatterns\Tests\Behavioral\Strategy;
+
 use \Rpodwika\Designpatterns\Behavioral\Strategy\RiskCalculator;
 use \Rpodwika\Designpatterns\Behavioral\Strategy\SoftRiskCalculator;
 use \Rpodwika\Designpatterns\Behavioral\Strategy\HardRiskCalculator;
@@ -10,10 +12,12 @@ use \Rpodwika\Designpatterns\Behavioral\Strategy\HardRiskCalculator;
  * Date: 05.07.15
  * Time: 22:10
  */
-class RiskCalculatorTest extends PHPUnit_Framework_TestCase
+class RiskCalculatorTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers \Rpodwika\Designpatterns\Behavioral\Strategy\RiskCalculator::calculateRisk
+     * @covers \Rpodwika\Designpatterns\Behavioral\Strategy\RiskCalculator
+     * @covers \Rpodwika\Designpatterns\Behavioral\Strategy\SoftRiskCalculator
+     * @covers \Rpodwika\Designpatterns\Behavioral\Strategy\HardRiskCalculator
      */
     public function testRiskCalculatorSoftRisk()
     {
