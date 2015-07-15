@@ -44,4 +44,13 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('I do something', $object->doSomething());
 
     }
+
+    /**
+     * @covers \Rpodwika\Designpatterns\Antipatterns\Singleton\SingletonSample
+     */
+    public function testSingletonSample()
+    {
+        $this->assertEquals('I do something', SingletonSample::getInstance()->doSomething());
+    }
+
 }
