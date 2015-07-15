@@ -13,7 +13,7 @@ class Singleton
     private static $instance;
 
     /**
-     * @return bool
+     * @return $this
      */
     final public static function getInstance()
     {
@@ -28,12 +28,10 @@ class Singleton
         //default construct should not have public access
     }
 
-    final private function __wakeup()
-    {
-    }
 
     final private function __clone()
     {
+        return static::$instance;
     }
 
     public function doSomething()

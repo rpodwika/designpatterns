@@ -22,12 +22,4 @@ trait SingletonTrait
     {
     }
 
-    final private function __wakeup()
-    {
-    }
-
-    final private function __clone()
-    {
-    }
-
 }
