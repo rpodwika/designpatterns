@@ -30,6 +30,8 @@ should not force your code to fit in patterns. It should come out naturally. Fir
     * [Singleton](src/Antipatterns/) - One global instance of a class
 2. Behavioral
     * [Adapter](src/Behavioral/Adapter) - adapt class behavior to new conditions without modifying source of original class
+    * [Chain of responsibility](src/Behavioral/ChainOfResponsibility) - Avoid coupling the sender of a request to its receiver 
+    by giving more than one object a chance to handle the request
     * [Memento](src/Behavioral/Memento) - Without violating encapsulation, capture and externalize an object's internal
     state
     * [Observer](src/Behavioral/Observer) - Define one to many dependency between objects so that when one changes state,
@@ -52,8 +54,7 @@ should not force your code to fit in patterns. It should come out naturally. Fir
 * Composite
 * Facade
 * Flyweight
-* Proxy
-* Chain of responsibility
+* Proxygit ad
 * Command
 * Interpreter
 * Iterator
