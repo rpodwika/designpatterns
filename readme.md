@@ -36,8 +36,9 @@ should not force your code to fit in patterns. It should come out naturally. Fir
     state
     * [Observer](src/Behavioral/Observer) - Define one to many dependency between objects so that when one changes state,
     all its dependents are notified and updated automatically
+    * [Proxy](src/Behavioral/Proxy) - Do some operations before giving access to origin object
     * [State](src/Behavioral/State) - allow object to alter its behavior depending on current internal state change.
-    * [Strategy](src/Behavioral/Strategy) - Define a family of algorithms and make them interchangable. 
+    * [Strategy](src/Behavioral/Strategy) - Define a family of algorithms and make them interchangeable. 
 3. Creational
     * [Factory](src/Creational/Factory) - Define an interface for creating an object but let the subclasses decide
     which class to instantiate
@@ -54,7 +55,6 @@ should not force your code to fit in patterns. It should come out naturally. Fir
 * Composite
 * Facade
 * Flyweight
-* Proxygit ad
 * Command
 * Interpreter
 * Iterator
