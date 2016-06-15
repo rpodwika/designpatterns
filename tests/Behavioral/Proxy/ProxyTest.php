@@ -62,5 +62,10 @@ class ProxyTest extends \PHPUnit_Framework_TestCase
     {
         $car = new ProxyCar();
         $this->assertSame('Driver cannot drive', $car->drive($driver));
+
+        $driver->setIsDrunk(false);
+        $this->assertFalse($driver->isDrunk());
+        $driver->setName($driver->getName() . '-drunk');
+        $this->testSoberDriverCanDriveCar($driver);
     }
 }
