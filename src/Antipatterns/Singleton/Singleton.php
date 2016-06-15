@@ -1,13 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: robertpodwikamac
- * Date: 05.07.15
- * Time: 14:40
- */
 
 namespace Rpodwika\Designpatterns\Antipatterns\Singleton;
 
+/**
+ * Class Singleton
+ * @package Rpodwika\Designpatterns\Antipatterns\Singleton
+ */
 class Singleton
 {
     private static $instance;
@@ -28,12 +26,17 @@ class Singleton
         //default construct should not have public access
     }
 
-
+    /**
+     * @return static::$instance;
+     */
     final private function __clone()
     {
         return static::$instance;
     }
 
+    /**
+     * @return string
+     */
     public function doSomething()
     {
         return 'I do something';

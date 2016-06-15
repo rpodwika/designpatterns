@@ -1,21 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: robertpodwikamac
- * Date: 11.07.15
- * Time: 20:35
- */
 
 namespace Rpodwika\Designpatterns\Behavioral\Adapter;
 
-
+/**
+ * Class EmailClient
+ * @package Rpodwika\Designpatterns\Behavioral\Adapter
+ */
 class EmailClient
 {
-    public function __construct()
-    {
-
-    }
-
     /**
      * @return string
      */
