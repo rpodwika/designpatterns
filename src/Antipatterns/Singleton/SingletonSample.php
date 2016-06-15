@@ -1,18 +1,18 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: robertpodwikamac
- * Date: 05.07.15
- * Time: 21:53
- */
 
 namespace Rpodwika\Designpatterns\Antipatterns\Singleton;
 
-
+/**
+ * Class SingletonSample
+ * @package Rpodwika\Designpatterns\Antipatterns\Singleton
+ */
 class SingletonSample
 {
     use SingletonTrait;
 
+    /**
+     * @return string
+     */
     public function doSomething()
     {
         return 'I do something';

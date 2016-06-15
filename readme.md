@@ -40,6 +40,8 @@ should not force your code to fit in patterns. It should come out naturally. Fir
     * [State](src/Behavioral/State) - allow object to alter its behavior depending on current internal state change.
     * [Strategy](src/Behavioral/Strategy) - Define a family of algorithms and make them interchangeable. 
 3. Creational
+    * [Abstract Factory](src/Creational/AbstractFactory) - Provides interface for creating families of objects
+    working together without specification of concrete classes
     * [Factory](src/Creational/Factory) - Define an interface for creating an object but let the subclasses decide
     which class to instantiate
 4. Structural
@@ -48,7 +50,6 @@ should not force your code to fit in patterns. It should come out naturally. Fir
     
 ##To be implemented
     
-* Abstract factory
 * Builder
 * Prototype
 * Bridge
